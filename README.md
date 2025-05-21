@@ -1,10 +1,11 @@
 # cyber-threat-automation
+StreamLit Link https://ci-cd-dashboard.streamlit.app
 
-# Cyber Threat Automation 🛡️
+# Cyber Threat Automation 
 
 Python tools for OSINT, threat intelligence, and cybersecurity automation.
 
-## 🔍 Tools
+##  Tools
 
 ### 1. `osint_shodan_scraper.py`
 Searches Shodan for exposed services and prints key asset info (IP, Org, Port).
@@ -15,8 +16,8 @@ Parses Qualys CSV reports and extracts vulnerabilities per host.
 ### 3. `intel_report_generator.py`
 Generates a stakeholder-ready report in BLUF (Bottom Line Up Front) format.
 
-## 👨‍💻 Author
+##  Author
 Tyler Reid  
 Cybersecurity Engineer | Python Automation | Threat Intel  
-🔗 [LinkedIn](:https://www.linkedin.com/in/tyler-cyberdefense/)  
-📄 [Resume](https://link.to/resume)
+[LinkedIn](:https://www.linkedin.com/in/tyler-cyberdefense/)  
+StreamLit Link https://ci-cd-dashboard.streamlit.app
