@@ -44,7 +44,7 @@ def get_sentinel_alerts(token, time_range_minutes=60):
     return alerts
 
 # ----------------------------
-# Threat Intelligence Enrichment
+# Threat Intelligence Enrichment with VirusTotal and AbuseIPDB
 # ----------------------------
 def abuseipdb_lookup(ip):
     url = f"https://api.abuseipdb.com/api/v2/check"
