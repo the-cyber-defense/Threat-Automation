@@ -6,7 +6,7 @@ from utils import (
 )
 
 st.set_page_config(page_title="CI/CD Security Dashboard", layout="wide")
-st.title("🔐 CI/CD Security Automation Dashboard")
+st.title(" CI/CD Security Scanner Dashboard")
 
 st.sidebar.header("🛠️ Select Security Tasks")
 task_options = st.sidebar.multiselect("Run Security Checks For:", [
