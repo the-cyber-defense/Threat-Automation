@@ -1,0 +1,7 @@
+dnspython
+scapy
+requests
+beautifulsoup4
+python-whois
+python-Levenshtein
+python-nmap
