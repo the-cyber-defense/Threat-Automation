@@ -1,10 +1,4 @@
-# cyber-threat-automation
-StreamLit Link https://ci-cd-dashboard.streamlit.app
 
-# Cyber Threat Automation 
-
-# cyber-threat-automation
-StreamLit Link https://ci-cd-dashboard.streamlit.app
 
 # Cyber Threat Automation 
 
