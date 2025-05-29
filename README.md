@@ -24,7 +24,7 @@ A collection of Python scripts designed to automate various tasks related to cyb
 
 ## 🔭 Overview
 
-This repository hosts a suite of Python scripts, each targeting a specific area of cybersecurity automation. These tools can be used independently for quick analysis or integrated into larger security workflows.
+This repository hosts a suite of scripts, each targeting a specific area of cybersecurity automation. These tools can be used independently for quick analysis or integrated into larger security workflows.
 
 ## ✨ Features
 
@@ -48,13 +48,13 @@ Below is a list of the scripts available in this toolkit, organized by their res
     - **Description:** Performs DNS enumeration for a given domain, retrieving common record types (A, AAAA, MX, NS, SOA, TXT, CNAME).
     - **Dependencies:** `dnspython`
     - **Usage:**
-      ```bash
+    
       python DNS-Recon/dns_enum.py <domain_name>
-      ```
+    
     - **Example:**
-      ```bash
+
       python DNS-Recon/dns_enum.py example.com
-      ```
+   
 
 ---
 
@@ -85,9 +85,9 @@ Below is a list of the scripts available in this toolkit, organized by their res
       sudo python Network-Analysis/network_traffic_analyzer.py <network_interface> [packet_count]
       ```
     - **Example:**
-      ```bash
+    
       sudo python Network-Analysis/network_traffic_analyzer.py eth0 100
-      ```
+    
 
 ---
 
@@ -97,13 +97,13 @@ Below is a list of the scripts available in this toolkit, organized by their res
     - **Description:** Analyzes a given URL for potential phishing indicators. It checks WHOIS information, SSL certificate details, keywords in the content, and performs a Levenshtein distance check against a list of common legitimate domains to detect typosquatting.
     - **Dependencies:** `requests`, `beautifulsoup4`, `python-whois`, `python-Levenshtein`
     - **Usage:**
-      ```bash
+     
       python Phishing-Analysis/url_analyzer.py <url_to_analyze>
-      ```
+    
     - **Example:**
-      ```bash
+     
       python Phishing-Analysis/url_analyzer.py "http://suspicious-example.com/login"
-      ```
+     
 
 ---
 
@@ -114,7 +114,7 @@ Below is a list of the scripts available in this toolkit, organized by their res
     - **Dependencies:** `requests`
     - **Configuration:** You'll need to modify the script with your Splunk URL and HEC token.
     - **Usage:**
-      ```bash
+     
       python SIEM-Integration/splunk_event_sender.py
       ```
       (Ensure `SPLUNK_HEC_URL` and `SPLUNK_HEC_TOKEN` are set in the script or as environment variables if modified to read them.)
@@ -133,7 +133,7 @@ Below is a list of the scripts available in this toolkit, organized by their res
       ```
       Scan types: `port`, `version`, `os`, `script`
     - **Example:**
-      ```bash
+     
       python Vulnerability-Scanning/nmap_scanner.py 192.168.1.1 port
       python Vulnerability-Scanning/nmap_scanner.py scanme.nmap.org version
       ```
@@ -147,7 +147,7 @@ Below is a list of the scripts available in this toolkit, organized by their res
     - **Dependencies:** `requests`, `beautifulsoup4`
     - **Configuration:** You'll need to adapt the `URL` and the parsing logic (`soup.find_all(...)`) within the script to match the structure of the target website.
     - **Usage:**
-      ```bash
+    
       python Web-Scraping/threat_intel_scraper.py
       ```
 
@@ -186,7 +186,7 @@ Below is a list of the scripts available in this toolkit, organized by their res
     python-nmap
     ```
     You can create this file and then run:
-    ```bash
+    
     pip install -r requirements.txt
     ```
 
@@ -195,13 +195,14 @@ Below is a list of the scripts available in this toolkit, organized by their res
 Navigate to the directory of the specific tool you want to use and execute the Python script as described in the [Tools Included](#-tools-included) section.
 
 **General command structure:**
-```bash
+
 python <path_to_script_directory>/<script_name.py> [arguments...]
 ```
 
 For example, to run the DNS enumeration script:
-```bash
+
 python DNS-Recon/dns_enum.py example.com
+
 ```
 
 Remember to:
@@ -231,16 +232,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 These tools are provided for educational and authorized testing purposes only. Do not use these scripts for any malicious activities or against systems for which you do not have explicit permission. The authors and contributors are not responsible for any misuse or damage caused by these tools. Always act responsibly and ethically.
 ```
 
-**Key additions and considerations for this README:**
 
-1.  **`requirements.txt`:** I've explicitly mentioned creating and using a `requirements.txt` file. This is crucial for managing Python dependencies. You should create this file in the root of your repository with the content I provided.
-2.  **Virtual Environment:** Recommended for isolating project dependencies.
-3.  **Prerequisites:** Clearly lists Python, pip, and Nmap (specifically for the Nmap script).
-4.  **Usage Instructions:** Provides clear examples for each script.
-5.  **Permissions:** Highlights scripts needing root/admin privileges.
-6.  **Configuration:** Notes where users might need to modify scripts (e.g., Splunk HEC details, web scraper targets).
-7.  **Standard Sections:** Includes Overview, Features, Contributing, License, and a Disclaimer.
-8.  **Formatting:** Uses Markdown for readability on GitHub.
-9.  **Clarity:** Breaks down each tool with its purpose, dependencies, and usage.
-
-You should copy this content into a `README.md` file at the root of your `cyber-threat-automation` repository. Remember to also create the `requirements.txt` file.
