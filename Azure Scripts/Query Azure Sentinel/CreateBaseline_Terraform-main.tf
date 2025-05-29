@@ -1,5 +1,3 @@
-# Script 2: Create a Baseline Conditional Access Policy (Terraform)
-# File: main.tf
 
 terraform {
   required_providers {
