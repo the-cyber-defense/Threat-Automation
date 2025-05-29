@@ -8,7 +8,6 @@ A collection of Python scripts designed to automate various tasks related to cyb
 - [Overview](-overview)
 - [Features](-features)
 - [Tools Included](-tools-included)
-  - [DNS Reconnaissance](dns-reconnaissance)
   - [Email Analysis](email-analysis)
   - [Network Analysis](network-analysis)
   - [Phishing Analysis](phishing-analysis)
