@@ -1,4 +1,4 @@
-# Script 3: Query Log Analytics for Suspicious Sign-ins (KQL via PowerShell)
+# Query Log Analytics for Suspicious Sign-ins (KQL via PowerShell)
 
 # --- Parameters ---
 $workspaceId = "YOUR_LOG_ANALYTICS_WORKSPACE_ID" # e.g., xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
